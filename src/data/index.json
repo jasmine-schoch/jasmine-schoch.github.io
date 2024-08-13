@@ -1,0 +1,82 @@
+{
+    "experiences": [
+        {
+            "id": "1",
+            "title": "Software Engineer Intern",
+            "src": "./img/zeta.jpeg",
+            "company": "Zeta Associates",
+            "description": "Exploring applications of Web Assembly and Kubernetes through research and development for government contracts."
+        },
+        {
+            "id": "2",
+            "title": "Undergraduate Researcher",
+            "src": "./img/yeast.png",
+            "company": "Dunham Lab, UW Seattle",
+            "description": "Redesigned and improved the UI of yEvo, a mutation browser R Shiny app for yeast evolution data visualization. Enabled data collaboration by allowing users to upload and visualize their data, fostering data-driven decision-making. Led the development of during a hackathon, and later joined the lab to enhance features based on user feedback."
+        },
+        {
+            "id": "3",
+            "title": "Undergraduate Tools Developer",
+            "src": "./img/urchin.png",
+            "company": "Steinmetz Lab, UW Seattle",
+            "description": "Developed a 3D anatomical brain data renderer (Urchin) in collaboration with Dr. Dan Birman. Implemented features to enhance data exploration and analysis via scripting in C# within Unity Game Engine. Established proxy server for secure communication between client-side browser applications and python notebooks. Developed an intuitive python API to allow those with minimal coding experience to run renderer with ease."
+        },
+        {
+            "id": "4",
+            "title": "Computational Genomics Researcher",
+            "src": "./img/dna.png",
+            "company": "Peng Lab, George Washington University",
+            "description": "Contributed to efforts in the research field of computational genomics, utilizing computational algorithms and machine learning specifically focused on epigenetics and gene regulation under Dr. Weiqun Peng. Used random forest algorithm to predict Hi-C interactions using epigenetic features and Sei data from lymphoblast narrow peak density data."
+        },
+        {
+            "id": "5",
+            "title": "Independent Student Researcher",
+            "src": "./img/drosophila.jpeg",
+            "company": "Loudoun Academy of Science",
+            "description": "Independently conducted research project investigating the effects of nanoplastics on the gut microbiome of Drosophila melanogaster. Gained significant wet-lab experience, including advanced techniques such as running qRT-PCR assays. Wrote 23-page scientific manuscript detailing findings."
+        }
+    ],
+    "projects":[
+        {
+            "id": "1",
+            "title": "Software Engineer Intern",
+            "src": "./img/goji.png",
+            "company": "Zeta Associates",
+            "description": "Exploring applications of Web Assembly and Kubernetes through research and development for government contracts.",
+            "link": "abc.xyz"
+        },
+        {
+            "id": "2",
+            "title": "Undergraduate Researcher",
+            "src": "./img/goji.png",
+            "company": "Dunham Lab, UW Seattle",
+            "description": "Redesigned and improved the UI of yEvo, a mutation browser R Shiny app for yeast evolution data visualization. Enabled data collaboration by allowing users to upload and visualize their data, fostering data-driven decision-making. Led the development of during a hackathon, and later joined the lab to enhance features based on user feedback.",
+            "link": "abc.xyz"
+        
+        },
+        {
+            "id": "3",
+            "title": "Undergraduate Tools Developer",
+            "src": "./img/goji.png",
+            "company": "Steinmetz Lab, UW Seattle",
+            "description": "Developed a 3D anatomical brain data renderer (Urchin) in collaboration with Dr. Dan Birman. Implemented features to enhance data exploration and analysis via scripting in C# within Unity Game Engine. Established proxy server for secure communication between client-side browser applications and python notebooks. Developed an intuitive python API to allow those with minimal coding experience to run renderer with ease.",
+            "link": "abc.xyz"
+        },
+        {
+            "id": "4",
+            "title": "Computational Genomics Researcher",
+            "src": "./img/goji.png",
+            "company": "Peng Lab, George Washington University",
+            "description": "Contributed to efforts in the research field of computational genomics, utilizing computational algorithms and machine learning specifically focused on epigenetics and gene regulation under Dr. Weiqun Peng. Used random forest algorithm to predict Hi-C interactions using epigenetic features and Sei data from lymphoblast narrow peak density data.",
+            "link": "abc.xyz"
+        },
+        {
+            "id": "5",
+            "title": "Independent Student Researcher",
+            "src": "./img/goji.png",
+            "company": "Loudoun Academy of Science",
+            "description": "Independently conducted research project investigating the effects of nanoplastics on the gut microbiome of Drosophila melanogaster. Gained significant wet-lab experience, including advanced techniques such as running qRT-PCR assays. Wrote 23-page scientific manuscript detailing findings.",
+            "link": "abc.xyz"
+        }
+    ]
+} 
