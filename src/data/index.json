@@ -39,43 +39,16 @@
     "projects":[
         {
             "id": "1",
-            "title": "Software Engineer Intern",
+            "title": "Goji - A Chrome extension promoting fashion sustainability for online shoppers",
             "src": "./img/goji.png",
-            "company": "Zeta Associates",
-            "description": "Exploring applications of Web Assembly and Kubernetes through research and development for government contracts.",
+            "description": "• Spearheaded the data analysis portion, utilizing python to compile data into succinct CSV files to be used directly\n• First version written using standard web technologies (HTML, CSS, JS) without any libraries or frameworks\n• Current version written in TypeScript utilizing React and Plasmo frameworks\n• Steadily increasing number of users, with over 100 downloads worldwide\n• For more information including download instructions, visit Goji on the Chrome Web store",
             "link": "abc.xyz"
         },
         {
             "id": "2",
-            "title": "Undergraduate Researcher",
+            "title": "PearPantry - Online fridge and recipe hub for shared households",
             "src": "./img/goji.png",
-            "company": "Dunham Lab, UW Seattle",
-            "description": "Redesigned and improved the UI of yEvo, a mutation browser R Shiny app for yeast evolution data visualization. Enabled data collaboration by allowing users to upload and visualize their data, fostering data-driven decision-making. Led the development of during a hackathon, and later joined the lab to enhance features based on user feedback.",
-            "link": "abc.xyz"
-        
-        },
-        {
-            "id": "3",
-            "title": "Undergraduate Tools Developer",
-            "src": "./img/goji.png",
-            "company": "Steinmetz Lab, UW Seattle",
-            "description": "Developed a 3D anatomical brain data renderer (Urchin) in collaboration with Dr. Dan Birman. Implemented features to enhance data exploration and analysis via scripting in C# within Unity Game Engine. Established proxy server for secure communication between client-side browser applications and python notebooks. Developed an intuitive python API to allow those with minimal coding experience to run renderer with ease.",
-            "link": "abc.xyz"
-        },
-        {
-            "id": "4",
-            "title": "Computational Genomics Researcher",
-            "src": "./img/goji.png",
-            "company": "Peng Lab, George Washington University",
-            "description": "Contributed to efforts in the research field of computational genomics, utilizing computational algorithms and machine learning specifically focused on epigenetics and gene regulation under Dr. Weiqun Peng. Used random forest algorithm to predict Hi-C interactions using epigenetic features and Sei data from lymphoblast narrow peak density data.",
-            "link": "abc.xyz"
-        },
-        {
-            "id": "5",
-            "title": "Independent Student Researcher",
-            "src": "./img/goji.png",
-            "company": "Loudoun Academy of Science",
-            "description": "Independently conducted research project investigating the effects of nanoplastics on the gut microbiome of Drosophila melanogaster. Gained significant wet-lab experience, including advanced techniques such as running qRT-PCR assays. Wrote 23-page scientific manuscript detailing findings.",
+            "description": "Led the end-to-end development of a web and iOS app addressing shared grocery management utilizing Swift, React, OCR, Spoonacular API, and Firebase, creating a seamless front-end\n• Implemented features for grocery splitting, recipe recommendations, budget tracking, and food waste reduction",
             "link": "abc.xyz"
         }
     ]
