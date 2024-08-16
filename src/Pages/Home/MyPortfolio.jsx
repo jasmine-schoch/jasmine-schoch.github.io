@@ -24,12 +24,15 @@ export default function MyPortfolio() {
                 {data?.projects?.map((item, index) => (
                     <div key={index} className='portfolio--section--card'>
                         <div className="portfolio--section--img">
-                            <img src={item.src} alt="Logo or symbol to represent the experience" />
+                            <img src={item.src} alt="Screenshot of project" />
                         </div>
                         <div className="portfolio--section--card--content">
                             <div>
                                 <h3 className="portfolio--section--title">{item.title}</h3>
-                                <p className="text-md">{item.description}</p>
+                                <p
+                                    className="text-md"
+                                    dangerouslySetInnerHTML={{ __html: item.description }}
+                                ></p>
                             </div>
                             <p className="text-sm portfolio--link">
                                 {item.link}
