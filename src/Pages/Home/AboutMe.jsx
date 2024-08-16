@@ -6,6 +6,7 @@ export default function AboutMe(){
             </div>
             <div className="main--section--content--box--about--section--box">
                 <div className="main--section--content">
+                <div></div><div></div>
                     <h1 className="experience--section--heading">About Me</h1>
                     <p className="main--section--description">
                         Hello hello welcome! I am Jasmine Schoch (pronouced "shock"), a current student at the University of Washington pursuing a degree in computer science with a concentration in data science, a minor in applied mathematics, and a strong passion for biological research. Outside of school and research, I am a proud member of the Traditional Chinese Dance team at UW, performing solos and group dances across UW and the greater Seattle area to promote Chinese culture.

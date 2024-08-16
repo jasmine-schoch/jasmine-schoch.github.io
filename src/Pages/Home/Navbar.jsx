@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 import MainSection from "./MainSection";
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
     
     const toggleNav = () => {
         setNavActive(!navActive);
@@ -45,33 +48,43 @@ function Navbar() {
             </a>
             <div className={`navbar--items ${navActive ? "active" : ""}`}> 
                 <ul>
-                    <li>
-                        <Link 
+                <li>
+                    {isHomePage ? (
+                        <Link
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            durtaion={500}
+                            duration={500}
                             to="MainSection"
                             className="navbar--content"
                         >
                             Home
-                            </Link>
+                        </Link>
+                    ) : (
+                        <RouterLink
+                            onClick={closeMenu}
+                            to="/"
+                            className="navbar--content"
+                        >
+                            Home
+                        </RouterLink>
+                        )}
                     </li>
                     <li>
-                        <Link 
+                        <RouterLink 
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             durtaion={500}
-                            to="MyPortfolio"
+                            to="/portfolio"
                             className="navbar--content"
                         >
                             Professional Experience
-                            </Link>
+                            </RouterLink >
                     </li>
                     <li>
                         <Link 
@@ -102,18 +115,28 @@ function Navbar() {
                             </Link>
                     </li>
                     <li>
-                        <Link 
+                    {isHomePage ? (
+                        <Link
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            durtaion={500}
+                            duration={500}
                             to="AboutMe"
                             className="navbar--content"
                         >
                             About Me
-                            </Link>
+                        </Link>
+                    ) : (
+                        <RouterLink
+                            onClick={closeMenu}
+                            to="/"
+                            className="navbar--content"
+                        >
+                            About Me
+                        </RouterLink>
+                        )}
                     </li>
                 </ul>
             </div>

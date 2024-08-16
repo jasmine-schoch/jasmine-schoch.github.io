@@ -3,9 +3,9 @@ import data from '../../data/index.json';
 export default function MyPortfolio() {
     return (
         <section className="portfolio--section" id="MyPortfolio">
+            <div>  </div>
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <p className="subtitle">Professional Experience and Projects</p>
                     <h2 className="section--heading">Personal Projects</h2>
                 </div>
                 <div>
