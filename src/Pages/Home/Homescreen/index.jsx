@@ -9,8 +9,8 @@ export default function Home () {
         <>
             <MainSection />
             <Experience />
-            <AboutMe />
             <MyPortfolio/>
+            <AboutMe />
             <Footer />
         </>
     );
