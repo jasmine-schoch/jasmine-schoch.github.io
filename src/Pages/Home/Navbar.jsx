@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import { Link as RouterLink, useLocation } from "react-router-dom";
+import { Route, Link as RouterLink, useLocation } from "react-router-dom";
 import MainSection from "./MainSection";
 
 function Navbar() {
@@ -87,32 +87,32 @@ function Navbar() {
                             </RouterLink >
                     </li>
                     <li>
-                        <Link 
+                        <RouterLink 
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             durtaion={500}
-                            to="PerformingArts"
+                            to="/performing-arts"
                             className="navbar--content"
                         >
                             Dance & Music
-                            </Link>
+                            </RouterLink>
                     </li>
                     <li>
-                        <Link 
+                        <RouterLink 
                             onClick={closeMenu}
                             activeClass="navbar--active-content"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             durtaion={500}
-                            to="LifeAdventures"
+                            to="/life-adventures"
                             className="navbar--content"
                         >
                             Life Adventures
-                            </Link>
+                            </RouterLink>
                     </li>
                     <li>
                     {isHomePage ? (
@@ -131,7 +131,7 @@ function Navbar() {
                     ) : (
                         <RouterLink
                             onClick={closeMenu}
-                            to="/"
+                            to="/about-me"
                             className="navbar--content"
                         >
                             About Me
