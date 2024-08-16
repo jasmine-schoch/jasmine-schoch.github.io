@@ -1,4 +1,5 @@
 import data from '../../data/index.json';
+import ExperienceContainer from './ExperienceContainer';
 
 export default function MyPortfolio() {
     return (
@@ -56,6 +57,8 @@ export default function MyPortfolio() {
                     </div>
                 ))}
             </div>
+            <h2 className="section--heading">Professional Experience</h2>
+            <ExperienceContainer />
         </section>
     );
 }
