@@ -1,7 +1,7 @@
 export default function MainSection() {
     return(<section id="MainSection" className="main--section" >
         <div className="main--section--content--box">   <div className="main--section--content">
-            <p className="section--title">Hello! I am</p>
+            <p className="main--section--hi">Hello! I am</p>
             <h1 className="main--section--title">  
                 <span className="main--section--title--color">Jasmine Schoch,</span>{" "}
             </h1>

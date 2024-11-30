@@ -19,12 +19,9 @@ p {
 }
 
 :root {
-  --primary: #b9373b;
-  --secondary: #d54a58;
-  --tertiary: #eb5966;
-  --gold: #eace61c3;
-  --initial-gold: #ffdc73c3;
-  --header-color: #f5f5f5;
+  --primary: #ab4140;
+  --header-color: #FFD02B;
+  --text-color: #f5f5f5;
   --black: #000000;
   --white: #ffffff;
   --github: #7a7786;
@@ -56,28 +53,28 @@ p {
 }
 .btn-outline-primary{
   color: var(--primary);
-  background-color: var(--white);
+  background-color: var(--text-color);
   border: 1px solid var(--primary)
 }
 
 .btn-outline-primary:hover {
-  color: var(--white);
+  color: var(--text-color);
   background-color: var(--primary);
 }
 
 .btn-primary{
-  color: var(--white);
+  color: var(--text-color);
   background-color: var(--primary);
   border: 1px solid var(--primary)
 }
 
 .btn-primary:hover {
   color: var(--primary);
-  background-color: var(--white);
+  background-color: var(--text-color);
 }
 
 .btn-github {
-  color: var(--white);
+  color: var(--text-color);
   background-color: var(--github);
   border: var(--github);
   display: flex;
@@ -90,7 +87,7 @@ p {
 
 .btn-github:hover {
   color: var(--github);
-  background-color: var(--white);
+  background-color: var(--text-color);
 }
 
 /* Global CSS Ends*/
@@ -102,7 +99,7 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
-  color: var(--white);
+  color: var(--primary);
 }
 
 /* Heading 2*/
@@ -110,15 +107,15 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 58px;
-  color: var(--primary);
+  color: var(--header-color);
 }
 
-/* Heading 3*/
+/*Heading 3*/
 h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 /* Paragraph text large medium small*/
@@ -138,7 +135,7 @@ h3 {
   font-weight: 400;
   line-height: 24px;
 }
-/* Body 3*/
+/* Body 3
 .text-sm{
   color: var(--bg-shade);
   font-size: 14px;
@@ -192,7 +189,7 @@ h3 {
 }
 /* Navbar Content */
 .navbar--content{
-  color: var(--tertiary);
+  color: var(--primary);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -200,7 +197,7 @@ h3 {
   cursor: pointer;
 }
 .navbar--active-content{
-  color: var(--gold);
+  color: var(--header-color);
 }
 
 /* Main Section Style */
@@ -230,8 +227,18 @@ h3 {
 .main--section--content--box > button{
   margin-top: 21.333px;
 }
+.main--section--hi{
+  color: var(--text-color);
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
 .main--section--title{
-  color: var(--header-color);
+  color: var(--text-color);
   font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
@@ -241,7 +248,7 @@ h3 {
   color: var(--primary);
 }
 .main--section--description{
-  color: var(--gold);
+  color: var(--header-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -342,6 +349,12 @@ h3 {
   height: 100%;
 }
 
+.about--section--description{
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
 /* About Me Ends */
 
 /* Portfolio section */
@@ -423,7 +436,7 @@ h3 {
   padding: 106.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--gold);
+  background: var(--white);
   align-items: center;
   align-self: stretch;
 }
