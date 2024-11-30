@@ -10,7 +10,12 @@ export default function MyPortfolio() {
                     <h2 className="section--heading">Personal Projects</h2>
                 </div>
                 <div>
-                    <button className="btn btn-github">
+                    <a 
+                        href="https://github.com/jasmine-schoch" 
+                        className="btn btn-github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img 
                             src="./img/github-mark-white.svg"  
                             alt="GitHub Logo" 
@@ -18,7 +23,7 @@ export default function MyPortfolio() {
                             height="32" 
                         />
                         Visit My Github
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className="portfolio--section--container">
