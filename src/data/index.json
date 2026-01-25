@@ -41,14 +41,14 @@
             "id": "1",
             "title": "This very website!",
             "src": "./img/homepage.png",
-            "description": "• Designed and developed a personal portfolio website using React,built with a mobile-first approach and responsive design<br/>• Utilized React Router for navigation and smooth transitions between pages<br/>• Incorporated JSON data to dynamically populate content, allowing for easy updates and scalability",
+            "description": "• Designed and developed a personal portfolio website using React, built with a mobile-first approach and responsive design<br/>• Utilized React Router for navigation and smooth transitions between pages<br/>• Incorporated JSON data to dynamically populate content, allowing for easy updates and scalability",
             "link": "https://jasmine-schoch.github.io/"
         },
         {
             "id": "2",
-            "title": "Goji - A Chrome extension promoting fashion sustainability for online shoppers",
+            "title": "Goji - Chrome extension promoting fashion sustainability",
             "src": "./img/goji.png",
-            "description": "• Spearheaded the data analysis portion, utilizing python to compile data into succinct CSV files to be used directly<br/>• First version written using standard web technologies (HTML, CSS, JS) without any libraries or frameworks<br/>• Current version written in TypeScript utilizing React and Plasmo frameworks<br/>• Steadily increasing number of users, with over 100 downloads worldwide<br/>• For more information including download instructions, visit Goji on the Chrome Web store",
+            "description": "• Spearheaded the data analysis portion, utilizing python to compile data into succinct CSV files for direct use<br/>• First version written using standard web technologies (HTML, CSS, JS) without any libraries or frameworks<br/>• Current version written in TypeScript utilizing React and Plasmo frameworks<br/>• Steadily increasing number of users, with over 100 downloads worldwide<br/>",
             "link": "https://chromewebstore.google.com/detail/goji/pjeeheedkpjojpgkpmbopfcopniinfdn?hl=en-US"
         },
         {

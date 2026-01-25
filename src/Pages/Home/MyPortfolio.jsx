@@ -1,6 +1,7 @@
 import data from '../../data/index.json';
 import ExperienceContainer from './ExperienceContainer';
 
+/* portfolio aka personal projects */
 export default function MyPortfolio() {
     return (
         <section className="portfolio--section" id="MyPortfolio">
