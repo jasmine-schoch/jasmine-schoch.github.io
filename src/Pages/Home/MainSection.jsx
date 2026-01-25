@@ -9,7 +9,7 @@ export default function MainSection() {
             <br />    
             </p>
         </div>
-        <button className="btn btn-primary">Contact me!</button>
+        <a href="mailto:jasmineyschoch@gmail.com" className="btn btn-primary">Contact me!</a>
         </div>
         <div className="main--section--img">
         <img src="./img/profile.png" alt="Jasmine posing in her dance costume holding a sword." />

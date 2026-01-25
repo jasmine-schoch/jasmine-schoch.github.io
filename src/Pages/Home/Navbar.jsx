@@ -140,18 +140,29 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
+            {/* Contact section scroll link - uncomment if you build out an actual Contact section
             <Link
             onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                durtaion={500}
+                duration={500}
                 to="Contact"
                 className="btn btn-outline-primary"
             >
             Contact Me!
             </Link>
+            */}
+            <a
+                href="mailto:jasmineyschoch@gmail.com"
+                onClick={closeMenu}
+                className="btn btn-outline-primary"
+                target="_self"
+                rel="noopener noreferrer"
+            >
+                Contact Me!
+            </a>
         </nav>
     );
 }
