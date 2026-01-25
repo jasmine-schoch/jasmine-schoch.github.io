@@ -157,7 +157,7 @@ function Navbar() {
             <a
                 href="mailto:jasmineyschoch@gmail.com"
                 onClick={closeMenu}
-                className="btn btn-outline-primary"
+                className="btn btn-primary"
                 target="_self"
                 rel="noopener noreferrer"
             >
