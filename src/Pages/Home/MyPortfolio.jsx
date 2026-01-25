@@ -41,14 +41,15 @@ export default function MyPortfolio() {
                                 ></p>
                             </div>
                             <p className="text-sm portfolio--link">
-                                {item.link}
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                >
+                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    {item.link}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 20 19"
+                                        fill="none"
+                                    >
                                     <path
                                         d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
                                         stroke="currentColor"
@@ -57,6 +58,7 @@ export default function MyPortfolio() {
                                         stroke-linejoin="round"
                                     />
                                 </svg>
+                            </a>
                             </p>
                         </div>
                     </div>

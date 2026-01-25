@@ -406,6 +406,9 @@ h3 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border: 1.33px solid var(--dark-shadow);
+  width: 300px; 
+  height: 600; 
+  box-sizing: border-box; 
 }
 .portfolio--section--card--content {
   display: flex;
@@ -415,8 +418,15 @@ h3 {
   gap: 32px;
   align-self: stretch;
 }
-
+.portfolio--section--title {
+  width: 100%; 
+  text-align: left;
+  margin: 0; 
+}
 .portfolio--link {
+  width: 100%;
+}
+.portfolio--link a {
   text-decoration: none;
   color: var(--white);
   display: flex;
@@ -424,6 +434,12 @@ h3 {
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+.portfolio--link a:hover {
+  text-decoration: underline;
 }
 .portfolio--section--card:hover path {
   stroke: var(--primary);
