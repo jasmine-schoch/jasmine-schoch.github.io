@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Professional Experience
+                Technical Experience
               </Link>
             </li>
             <li>

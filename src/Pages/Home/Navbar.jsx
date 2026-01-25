@@ -83,7 +83,7 @@ function Navbar() {
                             to="/portfolio"
                             className="navbar--content"
                         >
-                            Professional Experience
+                            Technical Experience
                             </RouterLink >
                     </li>
                     <li>
