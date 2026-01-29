@@ -46,7 +46,7 @@ function Footer() {
                 to="PerformingArts"
                 className="text-md"
               >
-                Dance & Music
+                Dance
               </Link>
             </li>
             <li>

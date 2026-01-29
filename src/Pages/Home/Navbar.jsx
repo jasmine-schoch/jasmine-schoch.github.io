@@ -97,7 +97,7 @@ function Navbar() {
                             to="/performing-arts"
                             className="navbar--content"
                         >
-                            Dance & Music
+                            Dance
                             </RouterLink>
                     </li>
                     <li>
