@@ -7,7 +7,7 @@ export default function Experience() {
         id="myExperience">
             <div className="experience--container">
                 <h1 className="experience--section--heading">My Experience</h1>
-                <h3 className="experience--section--subheading">For a more comprehensive overview, check out  the Professional Experience tab.</h3>
+                <h3 className="experience--section--subheading">Click each title to learn more. For a more comprehensive overview, check out the Professional Experience tab.</h3>
             </div>
             <ExperienceContainer />
         </section>

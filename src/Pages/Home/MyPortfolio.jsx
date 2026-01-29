@@ -43,7 +43,7 @@ export default function MyPortfolio() {
                             </div>
                             <p className="text-sm portfolio--link">
                             <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                    {item.link}
+                                    {item.linkText || item.link}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="16"
@@ -65,7 +65,10 @@ export default function MyPortfolio() {
                     </div>
                 ))}
             </div>
-            <h2 className="section--heading">Professional Experience</h2>
+            <div>
+                <h2 className="section--heading">Professional Experience</h2>
+                <h3 className="experience--section--subheading">Click each title to learn more.</h3>
+            </div>
             <ExperienceContainer />
         </section>
     );

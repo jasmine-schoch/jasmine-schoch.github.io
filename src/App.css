@@ -284,11 +284,12 @@ h3 {
   font-size: 16px;
 }
 .experience--section--container{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 42.6px;
-  grid-template-columns: repeat(5, minmax(250px, 1fr));
+  width: 100%;
 }
 .experiences--section--card {
   display: flex;
@@ -296,13 +297,10 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex: 1 0 0;
+  flex: 0 0 200px;
   border-radius: 10.6px;
   background-color: var(--white);
-  flex-basis: 0;
-  height: 100%;
   box-sizing: border-box;
-  overflow: hidden; /* Ensure content doesn’t overflow the card */
 }
 .experience--section--card:hover{
   border-bottom: 4px solid var(--primary);
@@ -316,22 +314,72 @@ h3 {
   border-radius: 10.6px;
   background-color: var(--white);
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  flex-shrink: 0;
+}
+.experience--section--img img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 .experience--section--card--content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 16px;
   align-self: stretch;
   flex-grow: 1;
-  overflow: auto; 
-  max-height: 600px;
+  justify-content: space-between;
 }
 .experience--section--title {
   color: var(--primary);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
+  margin: 0;
+}
+.experience--section--company {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 0 0;
+}
+.experience--section--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  cursor: pointer;
+  gap: 16px;
+}
+.experience--section--header:hover .experience--section--title {
+  color: var(--header-color);
+}
+.experience--section--arrow {
+  color: var(--primary);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+.experience--section--arrow.expanded {
+  transform: rotate(180deg);
+}
+.experience--section--description {
+  margin-top: 16px;
+  animation: fadeIn 0.3s ease;
+  color: var(--black);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 /*  Experience Style Ends */
 
@@ -632,7 +680,7 @@ h3 {
   line-height: 28px;
 }
 
-/* Responsive Screens */
+/* Mobile optimization starts */
 @media only screen and (max-width: 1800px) {
   .main--section--title {
     font-size: 68px;
@@ -675,12 +723,25 @@ h3 {
   .main--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding: 60px 20px;
+    gap: 40px;
   }
   .main--section--title,
   .main--section-description,
   .footer--content {
     text-align: center;
+  }
+  .main--section--hi {
+    text-align: center;
+    justify-content: center;
+  }
+  .main--section--title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .main--section--description {
+    font-size: 16px;
+    line-height: 24px;
   }
   .experience--section--container,
   .about--section,
@@ -691,6 +752,49 @@ h3 {
   .footer--content--container {
     display: flex;
     flex-direction: column;
+  }
+  .experience--section {
+    padding: 60px 20px;
+    gap: 50px;
+    align-items: center;
+  }
+  .experience--section--heading {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .experience--section--container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .experiences--section--card {
+    padding: 24px;
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+  }
+  .experience--section--img {
+    max-width: 80px;
+    padding: 10px;
+  }
+  .experience--section--img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .experience--section--card--content {
+    max-height: none;
+    gap: 16px;
+  }
+  .experience--section--title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .experience--section--company {
+    font-size: 14px;
+  }
+  .experience--section--description {
+    font-size: 13px;
   }
   .experience--section,
   .portfolio--container,
@@ -884,4 +988,4 @@ h3 {
     font-size: 13px;
   }
 }
-/* Responsive Screens Ends*/
+/* Mobile Optimization Ends*/
