@@ -755,6 +755,7 @@ h3 {
   position: absolute;
   top: 25px;
   right: 25px;
+  z-index: 1001;
 }
 
 .nav__hamburger__line {
@@ -770,6 +771,10 @@ h3 {
   .nav__hamburger {
     display: flex;
     z-index: 200;
+  }
+
+  .navbar .btn {
+    display: none !important;
   }
 
   .navbar--items {
@@ -813,6 +818,70 @@ h3 {
 
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
+
+  /* Navbar Mobile Optimization */
+  .navbar {
+    padding: 10px 15px;
+    gap: 10px;
+  }
+
+  .navbar img {
+    max-height: 35px;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .nav__hamburger {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-left: auto;
+  }
+
+  /* Performing Arts Mobile Optimization */
+  .performing-arts--section {
+    padding: 80px 20px;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .performing-arts--section--container {
+    align-items: center;
+  }
+
+  .performing-arts--section--header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .performing-arts--section--title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .performing-arts--section--description {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .performing-arts--videos--container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .performing-arts--video--content {
+    padding: 20px;
+  }
+
+  .performing-arts--video--title {
+    font-size: 16px;
+  }
+
+  .performing-arts--video--description {
+    font-size: 13px;
   }
 }
 /* Responsive Screens Ends*/
