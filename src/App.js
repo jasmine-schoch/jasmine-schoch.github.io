@@ -8,6 +8,7 @@ import MyPortfolio from "./Pages/Home/MyPortfolio";
 import AboutMe from './Pages/Home/AboutMe';
 import PerformingArts from './Pages/Home/PerformingArts';
 import LifeAdventures from './Pages/Home/LifeAdventures';
+import FAQs from './Pages/Home/FAQs';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about-me" element={<AboutMe/>} />
         <Route path="/performing-arts" element={<PerformingArts />} />
         <Route path="life-adventures" element={<LifeAdventures />}/>
+        <Route path="/faqs" element={<FAQs />} />
         <Route path="*" element ={<div>404 Not Found</div>}></Route>
       </Routes>
       <Footer />
