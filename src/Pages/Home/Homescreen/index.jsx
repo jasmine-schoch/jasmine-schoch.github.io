@@ -1,6 +1,5 @@
 import AboutMe from "../AboutMe";
 import Experience from "../Experience";
-import Footer from "../Footer";
 import MainSection from "../MainSection";
 
 export default function Home () {
@@ -9,7 +8,6 @@ export default function Home () {
             <MainSection />
             <Experience />
             <AboutMe />
-            <Footer />
         </>
     );
 }
