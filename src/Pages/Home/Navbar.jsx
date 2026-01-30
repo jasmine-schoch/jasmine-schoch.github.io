@@ -114,6 +114,18 @@ function Navbar() {
                             Life Adventures
                             </RouterLink>
                     </li>
+
+
+                    
+                    <li>
+                        <RouterLink 
+                            onClick={closeMenu}
+                            to="/faqs"
+                            className="navbar--content"
+                        >
+                            FAQs
+                        </RouterLink>
+                    </li>
                     <li>
                     {isHomePage ? (
                         <Link

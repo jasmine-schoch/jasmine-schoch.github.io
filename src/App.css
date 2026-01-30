@@ -622,6 +622,138 @@ h3 {
 
 /* Performing Arts Section Ends */
 
+/* FAQs Section Style */
+.faqs--section {
+  display: flex;
+  padding: 200px 85.333px 149.333px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-color: var(--black);
+}
+
+.faqs--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21.333px;
+  text-align: center;
+}
+
+.faqs--section--heading {
+  color: var(--primary);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+
+.faqs--section--description {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 600px;
+}
+
+.faqs--section--container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.faq--card {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 32px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq--card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.faq--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.faq--header.clickable {
+  cursor: pointer;
+}
+
+.faq--question {
+  color: var(--primary);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+  flex: 1;
+}
+
+.faq--header:hover .faq--question {
+  color: var(--header-color);
+}
+
+.faq--arrow {
+  color: var(--primary);
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.faq--arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.faq--answer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(171, 65, 64, 0.2);
+}
+
+.faq--short-answer {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.faq--long-answer {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.faq--long-answer p {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FAQs Section Ends */
+
 /* Footer Starts */
 .footer--container {
   display: flex;
