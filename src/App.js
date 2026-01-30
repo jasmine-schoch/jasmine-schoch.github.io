@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./Pages/Home/Navbar";
+import Footer from "./Pages/Home/Footer";
 import Home from "./Pages/Home/Homescreen";
 import MyPortfolio from "./Pages/Home/MyPortfolio";
 import AboutMe from './Pages/Home/AboutMe';
@@ -23,6 +24,7 @@ function App() {
         <Route path="life-adventures" element={<LifeAdventures />}/>
         <Route path="*" element ={<div>404 Not Found</div>}></Route>
       </Routes>
+      <Footer />
     </div>
   </Router>
   </div>
