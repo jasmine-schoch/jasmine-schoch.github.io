@@ -5,7 +5,7 @@ export default function MainSection() {
             <h1 className="main--section--title">  
                 <span className="main--section--title--color">Jasmine Schoch,</span>{" "}
             </h1>
-            <p className="main--section--description">a fourth year computer science student at the University of Washington with a strong passion for biology 🐣
+            <p className="main--section--description">a recent computer science graduate from the University of Washington with a strong passion for biology 🐣
             <br />    
             </p>
         </div>
