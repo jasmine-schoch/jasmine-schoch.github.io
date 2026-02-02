@@ -287,17 +287,19 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 42.6px;
   width: 100%;
 }
-.experiences--section--card {
+.experience--section--card {
   display: flex;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   flex: 0 0 200px;
+  min-height: 375px;
+  min-width: 350px;
   border-radius: 10.6px;
   background-color: var(--white);
   box-sizing: border-box;
@@ -314,14 +316,13 @@ h3 {
   border-radius: 10.6px;
   background-color: var(--white);
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
-  height: 120px;
-  min-height: 120px;
-  max-height: 120px;
+  width: 50px;
+  height: 50px;
   flex-shrink: 0;
 }
 .experience--section--img img {
-  max-height: 100%;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 .experience--section--card--content {
@@ -940,7 +941,7 @@ h3 {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .experiences--section--card {
+  .experience--section--card {
     padding: 24px;
     width: 100%;
     max-width: 100%;

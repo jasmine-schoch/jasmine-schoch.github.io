@@ -1,35 +1,49 @@
 {
     "experiences": [
         {
-            "id": "1",
+            "id": "94",
+            "title": "Software Engineer",
+            "src": "./img/zeta.jpeg",
+            "company": "Zeta Associates",
+            "description": "DevOps Engineer building and maintaining a proprietary cloud infrastructure to support internal production systems."
+        },
+        {
+            "id": "95",
+            "title": "Undergraduate Research Intern",
+            "src": "./img/micom.png",
+            "company": "Gibbons Lab, Institute for Systems Biology",
+            "description": "Processed metagenomic sequencing data using Qiime2 and Kraken pipelines to build genome-scale metabolic models for community-level analysis. Applied MICOM metabolic modeling framework to investigate gut microbiome signatures in Parkinson's Disease. Validated model predictions using statistical analysis including linear regression and FDR correction. Constructed custom Kraken2 database to process rumen microbiome metagenomic data for investigating methane emission reduction strategies in silico."
+        },
+        {
+            "id": "96",
             "title": "Software Engineer Intern",
             "src": "./img/zeta.jpeg",
             "company": "Zeta Associates",
             "description": "Exploring applications of Web Assembly and Kubernetes through research and development for government contracts."
         },
         {
-            "id": "2",
+            "id": "97",
             "title": "Undergraduate Researcher",
             "src": "./img/yeast.png",
             "company": "Dunham Lab, UW Seattle",
             "description": "Redesigned and improved the UI of yEvo, a mutation browser R Shiny app for yeast evolution data visualization. Enabled data collaboration by allowing users to upload and visualize their data, fostering data-driven decision-making. Led the development of during a hackathon, and later joined the lab to enhance features based on user feedback."
         },
         {
-            "id": "3",
+            "id": "98",
             "title": "Undergraduate Tools Developer",
             "src": "./img/urchin.png",
             "company": "Steinmetz Lab, UW Seattle",
             "description": "Developed a 3D anatomical brain data renderer (Urchin) in collaboration with Dr. Dan Birman. Implemented features to enhance data exploration and analysis via scripting in C# within Unity Game Engine. Established proxy server for secure communication between client-side browser applications and python notebooks. Developed an intuitive python API to allow those with minimal coding experience to run renderer with ease."
         },
         {
-            "id": "4",
+            "id": "99",
             "title": "Computational Genomics Researcher",
             "src": "./img/dna.png",
             "company": "Peng Lab, George Washington University",
             "description": "Contributed to efforts in the research field of computational genomics, utilizing computational algorithms and machine learning specifically focused on epigenetics and gene regulation under Dr. Weiqun Peng. Used random forest algorithm to predict Hi-C interactions using epigenetic features and Sei data from lymphoblast narrow peak density data."
         },
         {
-            "id": "5",
+            "id": "100",
             "title": "Independent Student Researcher",
             "src": "./img/drosophila.jpeg",
             "company": "Loudoun Academy of Science",

@@ -14,8 +14,8 @@ export default function ExperienceContainer() {
     return (
         <div className="experience--section--container">
             {data?.experiences?.map((item, index) => (
-                <div key={index} className="experiences--section--card">
-                    <div className="experiences--section--img">
+                <div key={index} className="experience--section--card">
+                    <div className="experience--section--img">
                         <img src={item.src} alt="Logo or symbol to represent the experience" />
                     </div>
                     <div className="experience--section--card--content">
