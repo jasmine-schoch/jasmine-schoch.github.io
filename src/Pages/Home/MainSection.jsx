@@ -9,6 +9,7 @@ export default function MainSection() {
             <br />    
             </p>
         </div>
+        <br />  
         <a href="mailto:jasmineyschoch@gmail.com" className="btn btn-primary">Contact me!</a>
         </div>
         <div className="main--section--img">

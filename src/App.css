@@ -930,7 +930,7 @@ h3 {
     align-items: center;
   }
   .faqs--section {
-    padding: 120px 40px 60px 40px;
+    padding: 128px 40px;
   }
   .experience--section--heading {
     font-size: 32px;
@@ -1061,7 +1061,7 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: var(--black);
-    top: -22rem;
+    top: -30rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
