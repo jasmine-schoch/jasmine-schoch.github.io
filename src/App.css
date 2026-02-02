@@ -301,7 +301,8 @@ h3 {
   min-height: 375px;
   min-width: 350px;
   border-radius: 10.6px;
-  background-color: var(--white);
+  background-color: var(--black);
+  border: 1.33px solid var(--dark-shadow);
   box-sizing: border-box;
 }
 .experience--section--card:hover{
@@ -342,7 +343,7 @@ h3 {
   margin: 0;
 }
 .experience--section--company {
-  color: var(--black);
+  color: var(--white);
   font-size: 18px;
   font-weight: 400;
   margin: 8px 0 0 0;
@@ -370,7 +371,7 @@ h3 {
 .experience--section--description {
   margin-top: 16px;
   animation: fadeIn 0.3s ease;
-  color: var(--black);
+  color: var(--white);
 }
 @keyframes fadeIn {
   from {
