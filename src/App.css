@@ -104,7 +104,7 @@ h1 {
 
 /* Heading 2*/
 h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 58px;
   color: var(--header-color);
@@ -276,7 +276,6 @@ h3 {
 }
 .experience--section--heading{
   color: var(--header-color);
-  font-size: 64px;
   font-weight: 700;
   line-height: 77px;
 }
@@ -337,8 +336,6 @@ h3 {
 }
 .experience--section--title {
   color: var(--primary);
-  font-size: 32px;
-  font-weight: 700;
   line-height: 45px;
   margin: 0;
 }
@@ -645,7 +642,7 @@ h3 {
 
 .faqs--section--heading {
   color: var(--primary);
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 77px;
 }
@@ -931,6 +928,9 @@ h3 {
     padding: 60px 20px;
     gap: 50px;
     align-items: center;
+  }
+  .faqs--section {
+    padding: 120px 40px 60px 40px;
   }
   .experience--section--heading {
     font-size: 32px;
