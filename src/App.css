@@ -289,6 +289,7 @@ h3 {
   align-items: flex-start;
   gap: 42.6px;
   width: 100%;
+  max-width: 100%;
 }
 .experience--section--card {
   display: flex;
@@ -644,7 +645,7 @@ h3 {
   color: var(--primary);
   font-size: 32px;
   font-weight: 700;
-  line-height: 77px;
+  line-height: 45px;
 }
 
 .faqs--section--description {
@@ -928,6 +929,9 @@ h3 {
     padding: 60px 20px;
     gap: 50px;
     align-items: center;
+  }
+  .portfolio--section {
+    padding: 60px 20px;
   }
   .faqs--section {
     padding: 128px 40px;
